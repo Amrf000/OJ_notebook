@@ -28,7 +28,7 @@ author:
   description: 杂活专家 知行合一 <strong>emoj</strong>
   contact:
     github:    https://github.com/Amrf000
-    email:     yawuliu@163.com
+    email:     mailto:yawuliu@163.com
 # Navigation (2nd level links supported)
 nav:
   Home:           
@@ -47,7 +47,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  image: /public/img/earth-iceberg-wallpaper-preview.jpg
   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
