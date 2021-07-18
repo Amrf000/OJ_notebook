@@ -1,6 +1,5 @@
 ---
-layout: post
-title:  "How to install wsl2 offline"
+layout: default
 ---
 
 [How to install wsl2 offline](https://ripon-banik.medium.com/how-to-install-wsl2-offline-b470ab6eaf0e)
