@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to install wsl2 offline
-category: 转载
+category: Trans
 tags: [wsl2]
 ---
 
