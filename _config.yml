@@ -1,14 +1,57 @@
-theme: jekyll-theme-midnight
+# Site Info
+title: Amrf的Markdown博客
+tagline: 'A Jekyll theme based on Lanyon'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="https://amrf000.github.io/md_blog/" target="_blank">@amrf</a>.'
+baseurl: "/lanyon"
+url: https://amrf000.github.io/md_blog/
+logo: '/public/logo.png'
 
-# GH-pages supported plugins
-relative_links:
-  enabled: true
-  collections: true
-  
+# Site configurations
 gems:
-  - jekyll-feed
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-relative-links
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Amrf
+  description: 杂活专家 知行合一 <strong>emoj</strong>
+  contact:
+    github:    https://github.com/Amrf000
+    email:     yawuliu@163.com
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://amrf000.github.io/md_blog/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
