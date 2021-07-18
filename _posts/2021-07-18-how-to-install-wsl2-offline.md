@@ -1,11 +1,11 @@
 ---
 layout: post
 title: How to install wsl2 offline
-category: copy
+category: 转载
 tags: [wsl2]
 ---
 
-[How to install wsl2 offline](https://ripon-banik.medium.com/how-to-install-wsl2-offline-b470ab6eaf0e)
+原文:[How to install wsl2 offline](https://ripon-banik.medium.com/how-to-install-wsl2-offline-b470ab6eaf0e)
 ===========================
 
 [![Ripon Banik](https://miro.medium.com/fit/c/56/56/0*eVdo4350dV6X3gOz.)](/?source=post_page-----b470ab6eaf0e--------------------------------)
@@ -115,3 +115,5 @@ github.com
 
 
 ](https://github.com/microsoft/terminal/releases)
+
+[debain appx](tools/TheDebianProject.DebianGNULinux_1.3.0.0.AppxBundle)
