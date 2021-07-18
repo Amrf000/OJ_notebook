@@ -1,5 +1,7 @@
 theme: jekyll-theme-midnight
 
+baseurl: ""
+
 # GH-pages supported plugins
 relative_links:
   enabled: true
