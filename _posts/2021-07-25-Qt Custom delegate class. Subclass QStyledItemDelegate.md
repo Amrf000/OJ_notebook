@@ -10,7 +10,7 @@ tags: [qt5]
 
 * Since the sub-items of QListWidget are all single-column. So there is not much that can be displayed, but if you use the listWidget-\>setItemWidget(); method, the memory overhead is a bit large. So there are some information that can be drawn by drawing, First look at the simple effect:
 
-![ ](/public/assets/2021-07-25/5270fa91de1153c37286d6d7131246db.gif)
+![ ](/md_blog/public/assets/2021-07-25/5270fa91de1153c37286d6d7131246db.gif)
 
 Like QListWidget, QTableWidget, these all belong to the view class. The default has a basic Delegate. When we want to give more display methods to the children of the view, we can subclass QStyledItemDelegate or QItemDelegate, and we can subclass QStyledItemDelegate below. As an example:
     

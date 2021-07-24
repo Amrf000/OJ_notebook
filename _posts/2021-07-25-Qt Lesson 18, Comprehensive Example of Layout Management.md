@@ -19,11 +19,11 @@ tags: [qt5]
 --- components on the page are arranged through the layout manager
 * Solution (interface design through layout nesting)  
 In fact, this kind of thing has only one page, just through`QStackedLayout`This page layout uses slot functions to switch pages.  
-![ ](/public/assets/2021-07-25/3cb0976d9807f6cac14c6561f41a556a.png)
+![ ](/md_blog/public/assets/2021-07-25/3cb0976d9807f6cac14c6561f41a556a.png)
 * Through`QStackLayout` Manage different pages  
-![ ](/public/assets/2021-07-25/cf82d5d19ded5da8167fe475e0a3c19e.png)
+![ ](/md_blog/public/assets/2021-07-25/cf82d5d19ded5da8167fe475e0a3c19e.png)
 * Generate different pages through subcomponents  
-![ ](/public/assets/2021-07-25/c748d8f83578844b11b934d5df1f8ca3.png)
+![ ](/md_blog/public/assets/2021-07-25/c748d8f83578844b11b934d5df1f8ca3.png)
 
 widget.h
     
@@ -353,15 +353,15 @@ widget.cpp
 
 * 116
 
-![ ](/public/assets/2021-07-25/4feda750d47e782a2976a3963e063dd0.png)  
-![ ](/public/assets/2021-07-25/0083e1bfba72d411e5dd4edf095842c7.png)
+![ ](/md_blog/public/assets/2021-07-25/4feda750d47e782a2976a3963e063dd0.png)  
+![ ](/md_blog/public/assets/2021-07-25/0083e1bfba72d411e5dd4edf095842c7.png)
 
 * Precautions  
 --- Components of any container classLayout manager can be specified  
 --- Components of the same layout manager have the same parent component  
 --- The parent-child relationship is implicitly specified while setting the layout manager（`setLayout`）
 
-![ ](/public/assets/2021-07-25/bcc366e30a702374ca8ac034e14dfc5f.png)  
+![ ](/md_blog/public/assets/2021-07-25/bcc366e30a702374ca8ac034e14dfc5f.png)  
 In the figure, component 1 and component 2 are managed by the same layout manager and have the same parent component.
 
 * summary:  

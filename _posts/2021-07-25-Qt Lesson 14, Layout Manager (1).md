@@ -26,12 +26,12 @@ Existing problems
 * Through inheritance`QLayout` Implement different and complementary layout managers
 * Qt can customize the layout manager as needed
 * Layout managerNot an interface component, But the positioning strategy of the interface components (not visible in the interface, is the helper of the window)  
-![ ](/public/assets/2021-07-25/2a2db3e3303888441c1297dd8b0344bc.png)  
+![ ](/md_blog/public/assets/2021-07-25/2a2db3e3303888441c1297dd8b0344bc.png)  
 2\. Introduction
 * `QBoxLayout` Layout manager  
 --- toHorizontal or verticalWay to manage interface components  
-![ ](/public/assets/2021-07-25/7375372311a5dfa027346ed387c9e431.png)  
-![ ](/public/assets/2021-07-25/8fd45efa72ae9f060bdf4bfd8004f56b.png)
+![ ](/md_blog/public/assets/2021-07-25/7375372311a5dfa027346ed387c9e431.png)  
+![ ](/md_blog/public/assets/2021-07-25/8fd45efa72ae9f060bdf4bfd8004f56b.png)
     
     QVBoxLayout: the length is changing, the height is not changing 
     
@@ -375,7 +375,7 @@ Widget.cpp
 * Layout managers can be nested with each other to form a more complex layout  
 --- Layout nesting can complete almost all commonly used interface layouts  
 --- Custom layout class can achieve the effect of personalized interface  
-![ ](/public/assets/2021-07-25/0b5baee9a6d7739f1e30d06e1085631a.png)
+![ ](/md_blog/public/assets/2021-07-25/0b5baee9a6d7739f1e30d06e1085631a.png)
 * summary  
 --- Absolutely positioned layout cannot adapt to changes in the window  
 --- Qt provides related classes for layout management of interface components  

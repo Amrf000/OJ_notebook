@@ -16,7 +16,7 @@ Qt directly supports multithreading through QThread
 
 - QThreadMultithreaded programming in a simple and easy way
 
-![](/public/assets/2021-07-25/78dd9fb75df024b62f59fcd0cb18e068.png)
+![](/md_blog/public/assets/2021-07-25/78dd9fb75df024b62f59fcd0cb18e068.png)
 
 Key member functions in QThread
 
@@ -34,7 +34,7 @@ Thread Thread function, used to define thread function (execution flow)
 
 Programming example
 
-![](/public/assets/2021-07-25/27947e9781c36d30b3f0a9d771a96616.png)
+![](/md_blog/public/assets/2021-07-25/27947e9781c36d30b3f0a9d771a96616.png)
 
 In the example, the main thread will end before the child thread
 
@@ -159,13 +159,13 @@ main.cpp
     
     
 
-![](/public/assets/2021-07-25/0132bb66e8ad6d53e7bac4cb9348239b.png)
+![](/md_blog/public/assets/2021-07-25/0132bb66e8ad6d53e7bac4cb9348239b.png)
 
 Multiple threads execute in parallel
 
 Thread life cycle
 
-![](/public/assets/2021-07-25/a83afc477181293e94ac03151acd15d2.png)
+![](/md_blog/public/assets/2021-07-25/a83afc477181293e94ac03151acd15d2.png)
 
 Focus on
 

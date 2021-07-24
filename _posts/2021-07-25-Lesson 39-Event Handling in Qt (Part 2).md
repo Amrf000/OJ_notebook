@@ -16,7 +16,7 @@ tags: [qt5]
 
 Event transmission process
 
-![](/public/assets/2021-07-25/aa94b9de65954c1f24430768f3649567.png)
+![](/md_blog/public/assets/2021-07-25/aa94b9de65954c1f24430768f3649567.png)
 
 After the event is processed by the component objectmayPass to itParent component object
 
@@ -307,7 +307,7 @@ main.cpp
     
     
 
-![](/public/assets/2021-07-25/d49a5013886944324bf3381241e1fa3e.gif)
+![](/md_blog/public/assets/2021-07-25/d49a5013886944324bf3381241e1fa3e.gif)
 
 Qt event is assigned to MyLineEdit, call its own event function for event processing
 
@@ -315,7 +315,7 @@ Calling different event processing functions according to different types of eve
 
 When cancelled e-\>ignore();Annotate
 
-![](/public/assets/2021-07-25/6b59f260f4a8e4e393b3d3ad111a6710.gif)
+![](/md_blog/public/assets/2021-07-25/6b59f260f4a8e4e393b3d3ad111a6710.gif)
 
 The event function of the parent component is called to handle the event
 
@@ -335,11 +335,11 @@ Passed by the monitored componentinstallEventFilter()letternumberInstall event f
 
 --Event filters canDecide whether to forward the event to the component object
 
-![](/public/assets/2021-07-25/0d443be009c3d06f02e236088c524c47.png)
+![](/md_blog/public/assets/2021-07-25/0d443be009c3d06f02e236088c524c47.png)
 
 Typical implementation of event filters
 
-![](/public/assets/2021-07-25/dda7ccd0e2cf57eee9ab3aa209e0993d.png)
+![](/md_blog/public/assets/2021-07-25/dda7ccd0e2cf57eee9ab3aa209e0993d.png)
 
 4\. Programming experiment
 
@@ -519,13 +519,13 @@ Widget.cpp (other code above)
 
 When pressing keys other than numbers
 
-![](/public/assets/2021-07-25/3d740fcec5a1b460d8fa671cd53c74ea.gif)
+![](/md_blog/public/assets/2021-07-25/3d740fcec5a1b460d8fa671cd53c74ea.gif)
 
 â â â â â â ties â â â ¢ â â â â â ¢ â ¢ that the letters were found to be filtered, and the MyLineEdit object did not receive the time
 
 When the number keys are pressed
 
-![](/public/assets/2021-07-25/6cac8bd93eda7c676b3175fafff8f9cc.gif)
+![](/md_blog/public/assets/2021-07-25/6cac8bd93eda7c676b3175fafff8f9cc.gif)
 
 5\. Summary
 

@@ -12,7 +12,7 @@ tags: [qt5]
 --- The buffer can be regarded as a special IO device in Qt  
 --- The file stream auxiliary class can be directly used to manipulate the buffer
 * How to use QBuffer buffer  
-![ ](/public/assets/2021-07-25/0cb4a38b57ccb3caaf28087d202f0735.png)
+![ ](/md_blog/public/assets/2021-07-25/0cb4a38b57ccb3caaf28087d202f0735.png)
 * QBuffer buffer usage occasions  
 1\. Different types of data transfer between threads  
 2\. Cache the data in the external device to return  
@@ -181,7 +181,7 @@ tags: [qt5]
 
 * 80
 
-![ ](/public/assets/2021-07-25/0d9e0b3517e38498d013e466afc6de18.png)
+![ ](/md_blog/public/assets/2021-07-25/0d9e0b3517e38498d013e466afc6de18.png)
 
 2\. Directory operations
 
@@ -192,7 +192,7 @@ tags: [qt5]
 --- QDir can use the filter string to get the specified item  
 --- QDir can get all root directories in the system
 * Basic example of directory operations  
-![ ](/public/assets/2021-07-25/af198c95817fb7675d8c53888e7647b5.png)
+![ ](/md_blog/public/assets/2021-07-25/af198c95817fb7675d8c53888e7647b5.png)
     
     #include <QCoreApplication> #include <QDir> #include <QFileInfoList> #include <QDebug> void test_dir() { const char* path = "C:/Users/xiebs/Desktop/QDir"; QDir dir; if(!dir.exists(path)) { dir.mkdir(path); } if(dir.exists(path)) { dir.cd(path); QStringList list = dir.entryList(); for(int i = 0; i < list.count(); i++) { qDebug() << list[i]; } } } unsigned int calculate_size(QString PATH) { QFileInfo info(PATH); unsigned int ret = 0; if(info.isFile()) { ret = info.size(); } else if(info.isDir()) { QDir dir(PATH); QFileInfoList list = dir.entryInfoList(); for(int i = 0; i < list.count(); i++) { if((list[i].fileName() != ".") && (list[i].fileName() != "..")) { ret += calculate_size(list[i].absoluteFilePath()); } } } return ret; } int main(int argc, char *argv[]) { QCoreApplication a(argc, argv); //test_dir(); qDebug() << calculate_size("C:/Users/xiebs/Desktop/QDir"); return a.exec(); } 
     
@@ -328,9 +328,9 @@ The list\[i\] obtained by this statement is the file name, not the path, so use
 * 1
 
 The resulting list\[i\] looks like this.  
-![ ](/public/assets/2021-07-25/1869a4ee8abc1b7701148bbd4968c8b6.png)  
+![ ](/md_blog/public/assets/2021-07-25/1869a4ee8abc1b7701148bbd4968c8b6.png)  
 This is actually not the path we are talking about, so add it after list\[i\]`.absoluteFilePath()`What we get is our common path.  
-![ ](/public/assets/2021-07-25/131d5eecf2bbcfc7d72cdbd279c548c7.png)  
+![ ](/md_blog/public/assets/2021-07-25/131d5eecf2bbcfc7d72cdbd279c548c7.png)  
 Add after this list\[i\]`.fileName()`What you get is the file name.
 
 3\. File system monitor
@@ -341,7 +341,7 @@ Add after this list\[i\]`.fileName()`What you get is the file name.
 --- will trigger a signal when the directory or file changes  
 --- can capture signals and respond to them through the signal and slot mechanism
 * File monitoring example  
-![ ](/public/assets/2021-07-25/7f957084b636a6c5175bb73a662c45f6.png)
+![ ](/md_blog/public/assets/2021-07-25/7f957084b636a6c5175bb73a662c45f6.png)
 
 Watch.h
     
@@ -470,7 +470,7 @@ main.cpp
 
 * 14
 
-![ ](/public/assets/2021-07-25/d93c3717a3ef95b4fdc51576eb70d616.png)  
+![ ](/md_blog/public/assets/2021-07-25/d93c3717a3ef95b4fdc51576eb70d616.png)  
 addPath() This function means that if the path exists, it will be added to the file system monitoring program. If the path does not exist or has been monitored by the file system monitoring program, the path is not added.
 
 4\. Summary

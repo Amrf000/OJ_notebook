@@ -18,13 +18,13 @@ Qt signals and slots more than the amount of content one, as well as to expand t
 
 Now define the slot and the write signal overloaded,
 
-![](/public/assets/2021-07-25/2ad7185e5d71c4e81e9c8845e08a068c.png)
+![](/md_blog/public/assets/2021-07-25/2ad7185e5d71c4e81e9c8845e08a068c.png)
 
-![](/public/assets/2021-07-25/c5c93ea7db70eeb127dfe0c6451daca6.png)
+![](/md_blog/public/assets/2021-07-25/c5c93ea7db70eeb127dfe0c6451daca6.png)
 
 Signals do not realize, slot function must be implemented.
 
-![](/public/assets/2021-07-25/53090401e9587f6a6819350c69f65004.png)
+![](/md_blog/public/assets/2021-07-25/53090401e9587f6a6819350c69f65004.png)
 
 After the signal and function declarations and implement tank, went to the window class object calls
 
@@ -35,7 +35,7 @@ void(\*p)(QString) =  &Teacher::hungry
 
 Now we have to call the reference signals and slots:
 
-![](/public/assets/2021-07-25/2f608c2834604938794da0f4203949cf.png)
+![](/md_blog/public/assets/2021-07-25/2f608c2834604938794da0f4203949cf.png)
 
 ### 2\. Other extensions
 
@@ -134,4 +134,4 @@ mutable statement, this part can be omitted. When the transfer function by value
 
 Example of use:
 
-![](/public/assets/2021-07-25/c9567866386a357d19c561f2858cbf41.png)
+![](/md_blog/public/assets/2021-07-25/c9567866386a357d19c561f2858cbf41.png)

@@ -60,7 +60,7 @@ Code interpretation:QDialog \*dialog defines a pointer to a QDialog class object
 
 operation result:  
 mydialog1 is the dialog and mywidget is the window.  
-![ ](/public/assets/2021-07-25/0f23110f2607feb3011a5fb0b2e4402d.png)  
+![ ](/md_blog/public/assets/2021-07-25/0f23110f2607feb3011a5fb0b2e4402d.png)  
 Create a modal dialog with .exec() without pointers
     
     QDialog dialog（this）； dialog.exec(); 

@@ -94,4 +94,4 @@ Ui::Widget \*ui;
 \#endif // WIDGET\_H  
 /widget.h end\*\*\*\*\*/  
 results  
-![ ](/public/assets/2021-07-25/9ade361f6bb28df92d00700fa64e799a.JPEG)
+![ ](/md_blog/public/assets/2021-07-25/9ade361f6bb28df92d00700fa64e799a.JPEG)

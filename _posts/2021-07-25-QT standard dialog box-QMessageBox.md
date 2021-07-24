@@ -12,7 +12,7 @@ tags: [qt5]
 
 In the process of using, we can roughly divide the default standard dialog box into the following categories according to the severity:
 
-![](/public/assets/2021-07-25/ef3feca9e0b41c22c0800f62563cfc30.JPEG)
+![](/md_blog/public/assets/2021-07-25/ef3feca9e0b41c22c0800f62563cfc30.JPEG)
 
 Qt provides five types of interfaces for displaying such windows. The specific styles are as follows:
 
@@ -560,10 +560,10 @@ main.cpp:
     
     
 
-![](/public/assets/2021-07-25/498f9e6bda38f2c9c5ccca1f5a3a9464.png)
+![](/md_blog/public/assets/2021-07-25/498f9e6bda38f2c9c5ccca1f5a3a9464.png)
 
-![](/public/assets/2021-07-25/e157c9a0a9e54e80fdd56cc76ce61282.png)
+![](/md_blog/public/assets/2021-07-25/e157c9a0a9e54e80fdd56cc76ce61282.png)
 
-![](/public/assets/2021-07-25/a1d5ded8f083bf0ddabe5be3312ed5a6.png) ![](/public/assets/2021-07-25/394e8f1f9a0b6d6787df89a7b10ebbaf.png)
+![](/md_blog/public/assets/2021-07-25/a1d5ded8f083bf0ddabe5be3312ed5a6.png) ![](/md_blog/public/assets/2021-07-25/394e8f1f9a0b6d6787df89a7b10ebbaf.png)
 
-![](/public/assets/2021-07-25/e4f3e6c4319cc552bb2df3dacb4002cd.png) ![](/public/assets/2021-07-25/dc448e3b6ebc0ad006b7196392116989.png)
+![](/md_blog/public/assets/2021-07-25/e4f3e6c4319cc552bb2df3dacb4002cd.png) ![](/md_blog/public/assets/2021-07-25/dc448e3b6ebc0ad006b7196392116989.png)

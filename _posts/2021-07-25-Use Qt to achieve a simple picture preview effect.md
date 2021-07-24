@@ -10,7 +10,7 @@ Qt simplifies the development of the UI interface. Compared with MFC, it is fast
 
 The interface effect is as shown in the figure below: the top two rows are pre-loaded thumbnails, click a single thumbnail to set the corresponding picture as the background picture of the main window
 
-![](/public/assets/2021-07-25/e914d28d0c6905e3bccef70d05dfaa9e.JPEG)
+![](/md_blog/public/assets/2021-07-25/e914d28d0c6905e3bccef70d05dfaa9e.JPEG)
 
 The main code is as follows, the constructor function of the main window (generate widgets and load content):
 

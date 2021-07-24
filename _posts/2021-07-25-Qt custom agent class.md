@@ -10,13 +10,13 @@ tags: [qt5]
 
 * ## Example
 
-![](/public/assets/2021-07-25/5883e255a0217626e0ae50be4b2c1ca6.png)
+![](/md_blog/public/assets/2021-07-25/5883e255a0217626e0ae50be4b2c1ca6.png)
 
 From the above figure, you can see age is an INT type, so you can use QspinBox as an editing component.
 
 ## Customize the basic design requirements of the agency class
 
-![](/public/assets/2021-07-25/8f1365c80ba0ed8bea443768f7dacf31.png)
+![](/md_blog/public/assets/2021-07-25/8f1365c80ba0ed8bea443768f7dacf31.png)
 
 QABSTractItemdeLegate is an abstract base class for all proxy classes.
 
@@ -199,7 +199,7 @@ use
 
 operation result
 
-![](/public/assets/2021-07-25/99f0454c577abe3102f7a116f85100cd.png)
+![](/md_blog/public/assets/2021-07-25/99f0454c577abe3102f7a116f85100cd.png)
 
 ## Complete source code
 

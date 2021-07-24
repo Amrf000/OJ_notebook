@@ -14,13 +14,13 @@ Step 1: Select the appropriate QT project creation type. In this lesson, directl
 
 The pure QML project can clearly divide the program design, which is more convenient for team software development
 
-![](/public/assets/2021-07-25/5a95d1afe85632bf106a328ed5855cfd.png)
+![](/md_blog/public/assets/2021-07-25/5a95d1afe85632bf106a328ed5855cfd.png)
 
-![](/public/assets/2021-07-25/c97fcb642c1cfe74ce061a0fe7a9ff94.png)
+![](/md_blog/public/assets/2021-07-25/c97fcb642c1cfe74ce061a0fe7a9ff94.png)
 
 We see that QT automatically generated a Lesson1.qmlproject and Lesson1.qml project file
 
-![](/public/assets/2021-07-25/65cb88168c2ba86b5aae566059436d0e.png)
+![](/md_blog/public/assets/2021-07-25/65cb88168c2ba86b5aae566059436d0e.png)
 
 From the background script, we found that the entry of the program is the Lesson1.qml file
 
@@ -92,4 +92,4 @@ MyButton.qml is a custom control, see here, you can appreciate the great advanta
 
 Step 3: On the window of Lesson1.qml
 
-![](/public/assets/2021-07-25/0e44c89b1d91efcb62be12cf510beb1f.png)
+![](/md_blog/public/assets/2021-07-25/0e44c89b1d91efcb62be12cf510beb1f.png)

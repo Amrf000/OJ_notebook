@@ -52,7 +52,7 @@ C. The incremental model combines the basic components (repetitive application) 
 
 D. After all the sub-functions are completed, the system development ends.
 
-![](/public/assets/2021-07-25/efae4ea0ad492c4321c3031e8e8d7cbb.JPEG)
+![](/md_blog/public/assets/2021-07-25/efae4ea0ad492c4321c3031e8e8d7cbb.JPEG)
 
 (4) Spiral Model
 
@@ -66,11 +66,11 @@ D. Plan the next version based on the feedback of the previous version
 
 E. The risk-driven spiral model is suitable for large-scale software projects developed internally, but only when the developers have experience and expertise in risk analysis and risk elimination can the use of this model be successful.
 
-![](/public/assets/2021-07-25/88a1854cceeece43dcad7aded70e2749.png)
+![](/md_blog/public/assets/2021-07-25/88a1854cceeece43dcad7aded70e2749.png)
 
 (5) Agile Modeling
 
-![](/public/assets/2021-07-25/76dd160e3a5dd41eaa39b9ac74c7a0d7.JPEG) 
+![](/md_blog/public/assets/2021-07-25/76dd160e3a5dd41eaa39b9ac74c7a0d7.JPEG) 
 
 A. Keep everything simple
 
@@ -86,11 +86,11 @@ D. Continuous development
 
 (2) Weak coupling between functions
 
-![](/public/assets/2021-07-25/9e6490d00db35fbe5859e222e5686548.JPEG) 
+![](/md_blog/public/assets/2021-07-25/9e6490d00db35fbe5859e222e5686548.JPEG) 
 
 NotePad.pro project phase test (for memory leak detection: valgrind tool)
 
-![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.h
+![](/md_blog/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.h
     
 
 1. #ifndef MAINWINDOW_H
@@ -226,7 +226,7 @@ NotePad.pro project phase test (for memory leak detection: valgrind tool)
     
     
 
-![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
+![](/md_blog/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
     
 
 1. #include "MainWindow.h"
@@ -1649,7 +1649,7 @@ NotePad.pro project phase test (for memory leak detection: valgrind tool)
     
     
 
-![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
+![](/md_blog/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
     
 
 1. #include <QtGui/QApplication>

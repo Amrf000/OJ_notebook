@@ -18,7 +18,7 @@ Qt encapsulates the message mechanism of specific operating systems
 
 Qt follows the classic GUI message-driven event model
 
-![](/public/assets/2021-07-25/8315335e3e268047d72cf150ca1f5a7b.png)
+![](/md_blog/public/assets/2021-07-25/8315335e3e268047d72cf150ca1f5a7b.png)
 
 2\. Thinking
 
@@ -44,13 +44,13 @@ Qt defines concepts related to system messages
 
 Message processing mechanism in Qt
 
-![](/public/assets/2021-07-25/ce1fae850a34599e7a3fbcf40a079236.png)
+![](/md_blog/public/assets/2021-07-25/ce1fae850a34599e7a3fbcf40a079236.png)
 
 The connection of the signal to the slot must occur between two Qt class objects! A
 
 The core of Qt-QObject::connectFunction
 
-![](/public/assets/2021-07-25/f301aa33206c82f892f1fe8b37c4daf5.png)
+![](/md_blog/public/assets/2021-07-25/f301aa33206c82f892f1fe8b37c4daf5.png)
 
 - Note: 
 
@@ -115,7 +115,7 @@ Probe into signals and slots 10-1.pro
     
     
 
-![](/public/assets/2021-07-25/18ecc2a12547c80c60dd350cac4ee985.png)
+![](/md_blog/public/assets/2021-07-25/18ecc2a12547c80c60dd350cac4ee985.png)
 
 5\. Custom slot
 
@@ -463,7 +463,7 @@ main.cpp
     
     
 
-![](/public/assets/2021-07-25/41ea845ef0dea010be13f3206fd71350.png)  
+![](/md_blog/public/assets/2021-07-25/41ea845ef0dea010be13f3206fd71350.png)  
 
 7\. Tips
 

@@ -16,7 +16,7 @@ tags: [qt5]
 
 Message processing model for graphical interface applications
 
-![](/public/assets/2021-07-25/42f265c109c557289f3d1ac54b391e6d.png)
+![](/md_blog/public/assets/2021-07-25/42f265c109c557289f3d1ac54b391e6d.png)
 
 2\. Thinking
 
@@ -32,7 +32,7 @@ Qt events are used forDescribe the actions that occur inside or outside the prog
 
 - ArbitraryQObjectObjects have the ability to handle events
 
-![](/public/assets/2021-07-25/2b09e291c1ec67a8f6fadec84e7fa8f4.png)
+![](/md_blog/public/assets/2021-07-25/2b09e291c1ec67a8f6fadec84e7fa8f4.png)
 
 Event processing method of GUI application
 
@@ -48,7 +48,7 @@ Event processing method of GUI application
 
 Scenario analysis: button click
 
-![](/public/assets/2021-07-25/070dbcf53dfcae75130125f95c269fd7.png)
+![](/md_blog/public/assets/2021-07-25/070dbcf53dfcae75130125f95c269fd7.png)
 
 QPushButton event processing analysis
 
@@ -334,7 +334,7 @@ event(QEvent) And signal (SIGNAL)different
 
 6\. Close operation in the text editor
 
-![](/public/assets/2021-07-25/9236dffa44932a0074639e6b413af787.png)
+![](/md_blog/public/assets/2021-07-25/9236dffa44932a0074639e6b413af787.png)
 
 7\. Programming experiment
 

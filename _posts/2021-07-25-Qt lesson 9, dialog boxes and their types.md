@@ -9,7 +9,7 @@ tags: [qt5]
 * The dialog is with the userShort interactionofTop-level window
 * QDialog is the base class of all dialog windows in Qt
 * QDialog inherited from QWidget is a container type component  
-![ ](/public/assets/2021-07-25/2cb10060dea54d9ece00fb78c6e3f5f4.png)
+![ ](/md_blog/public/assets/2021-07-25/2cb10060dea54d9ece00fb78c6e3f5f4.png)
 * The meaning of QDialog  
 --- QDialog as aDedicated interactive windowAnd exist  
 --- QDialog Can'tEmbedded in other containers as sub-components  
@@ -58,7 +58,7 @@ Doubt: Since QWidget is the parent component of the QDialog window class object,
 
 * 19
 
-![ ](/public/assets/2021-07-25/b496cfca4b4ddcf7a97a1e5e1b885ae8.png)  
+![ ](/md_blog/public/assets/2021-07-25/b496cfca4b4ddcf7a97a1e5e1b885ae8.png)  
 Reason: Because the dialog box is an independent window, unlike buttons, these are just components. We can't think that the left and right subcomponents of QWidget are components, and there are windows. And as explained earlier, QDialog cannot be embedded in other containers as a subcomponent, so if you want to display the dialog box, you should d.show().
     
     #include "Dialog.h" #include <QApplication> #include <QWidget> #include <QDialog> int main(int argc, char *argv[]) { QApplication a(argc, argv); QWidget w; QDialog d(&w); w.show(); w.setWindowTitle("I'm QWidget"); d.show(); d.setWindowTitle("I'm QDialog"); return a.exec(); } 
@@ -104,7 +104,7 @@ Reason: Because the dialog box is an independent window, unlike buttons, these a
 
 * 20
 
-![ ](/public/assets/2021-07-25/a3a5a4e3965cebbd50818c3bcc6ff212.png)  
+![ ](/md_blog/public/assets/2021-07-25/a3a5a4e3965cebbd50818c3bcc6ff212.png)  
 QDialog is a top-level window, displayed on the top, and it serves as the base class of all dialog windows. The object of QWidget can also be its child components, but the final display result is
     
     #include "Dialog.h" #include <QApplication> #include <QWidget> #include <QDialog> int main(int argc, char *argv[]) { QApplication a(argc, argv); QDialog d; QWidget w(&d); w.show(); w.setWindowTitle("I'm QWidget"); d.show(); d.setWindowTitle("I'm QDialog"); return a.exec(); } 
@@ -150,7 +150,7 @@ QDialog is a top-level window, displayed on the top, and it serves as the base c
 
 * 20
 
-![ ](/public/assets/2021-07-25/289ac792cbebec76c48e88904dc4256a.png)  
+![ ](/md_blog/public/assets/2021-07-25/289ac792cbebec76c48e88904dc4256a.png)  
 This is true. The parent component itself is the top-level window, and the child component is displayed in a way that we cannot see.
 
 2\. The type of dialog box
@@ -161,7 +161,7 @@ This is true. The parent component itself is the top-level window, and the child
 * Non-modal dialog (`QDialog::show()`）  
 --- After displaying, it can exist independently and can interact with the parent window at the same time  
 --- is aNon-blockingDialog box call  
-![ ](/public/assets/2021-07-25/bac436573b3f1cbcd47218d8f9ebb6c9.png)
+![ ](/md_blog/public/assets/2021-07-25/bac436573b3f1cbcd47218d8f9ebb6c9.png)
 * Tips  
 --- Creating a modal dialog on the stack is the simplest and most common way (thanks to`QDialog::exec()`Make the window always exist)  
 --- In general, non-modal dialog boxes need to be created on the heap (mainly because they are on the stack`QDialog::show()`Makes the window flash past)  
@@ -407,13 +407,13 @@ main.cpp
 
 * 15
 
-![ ](/public/assets/2021-07-25/fef3cf5d29e6780cd8afcd232320d7fd.png)  
+![ ](/md_blog/public/assets/2021-07-25/fef3cf5d29e6780cd8afcd232320d7fd.png)  
 3\. The return value of the dialog box
 
 * Only modal dialogOnly the concept of return value (the user selects the dialog box to end)
 * The return value of the modal dialog box is used to represent the interactive result
 * `QDialog::exec()` The return value is the interactive result  
-![ ](/public/assets/2021-07-25/bf39c533f8250677ef68b0a7c6b4d597.png)
+![ ](/md_blog/public/assets/2021-07-25/bf39c533f8250677ef68b0a7c6b4d597.png)
 
 Dialog.h
     

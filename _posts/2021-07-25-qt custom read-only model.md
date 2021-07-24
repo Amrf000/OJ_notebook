@@ -102,5 +102,5 @@ view.show();
 return a.exec();  
 }  
 This is our actual operating results:  
-![](/public/assets/2021-07-25/153d961786e83d528e5c04f0c84c83f6.png)  
+![](/md_blog/public/assets/2021-07-25/153d961786e83d528e5c04f0c84c83f6.png)  
 Custom Read-only model

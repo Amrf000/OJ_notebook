@@ -10,7 +10,7 @@ There are other ways to change the style in the QT button:
 example:  
 In mainwindow.cpp (name I am too lazy to change, use mainwindow), enter the mystery code to set the initial style of the button, the last "\\" line break for each line, do not want to use line breaks, The long screen of the screen can be integrated into one line of display.  
 Setting the initial value input is the same as changing the style sheet directly in ui.  
-![ ](/public/assets/2021-07-25/b92fbbb10d127ed941db280ebc20ef0c.png)
+![ ](/md_blog/public/assets/2021-07-25/b92fbbb10d127ed941db280ebc20ef0c.png)
     
     ui->pushButton->setStyleSheet("QPushButton{background:rgb(255, 190, 78);\ border: 1px solid grey; border-radius: 8px;}\ QPushButton:hover{border-color:rgb(139,170,105);\ background:rgb(241, 177, 74);}\ QPushButton:pressed{border-color:gray;background:rgb(227, 167, 69);}"); 
     
@@ -26,7 +26,7 @@ Setting the initial value input is the same as changing the style sheet directly
 * 5
 
 This is how it looks:  
-![ ](/public/assets/2021-07-25/f56e4ea3b53e2e930ef235370f71840e.png)  
+![ ](/md_blog/public/assets/2021-07-25/f56e4ea3b53e2e930ef235370f71840e.png)  
 still alright:  
 Turns the pushbutton to the slot (clicked()), which becomes a different style after setting the point:
     
@@ -110,7 +110,7 @@ Set a flag, press to change the color, such as "blue when the button is closed, 
 Note: Use static when setting the flag.
 
 The above code diagram of the routine is as follows:  
-![ ](/public/assets/2021-07-25/9700160fc3b7c25e27ea3869a317b1c7.png)  
-![ ](/public/assets/2021-07-25/d8d5ae61806d6d7d1b906119d89f4221.png)
+![ ](/md_blog/public/assets/2021-07-25/9700160fc3b7c25e27ea3869a317b1c7.png)  
+![ ](/md_blog/public/assets/2021-07-25/d8d5ae61806d6d7d1b906119d89f4221.png)
 
 (Lead Zhuo Education)

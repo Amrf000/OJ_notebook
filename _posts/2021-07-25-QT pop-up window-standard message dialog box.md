@@ -87,13 +87,13 @@ QMessageBox::Ignore[AcceptRole](https://doc.qt.io/qt-5/qmessagebox.html)The defi
 
 QMessageBox::NoButtonInvalid button.
 
-Message severity![](/public/assets/2021-07-25/67b25ce36608a913221117154ccf4ceb.png)[Question](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to ask questions during normal operation.
+Message severity![](/md_blog/public/assets/2021-07-25/67b25ce36608a913221117154ccf4ceb.png)[Question](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to ask questions during normal operation.
 
-![](/public/assets/2021-07-25/336450232cf38f4a06c61318cd9a0aec.png)[Information](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report information about normal operations.
+![](/md_blog/public/assets/2021-07-25/336450232cf38f4a06c61318cd9a0aec.png)[Information](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report information about normal operations.
 
-![](/public/assets/2021-07-25/9d51dec371e684ec08ada2182460998f.png)[Warning](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report non-critical errors.
+![](/md_blog/public/assets/2021-07-25/9d51dec371e684ec08ada2182460998f.png)[Warning](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report non-critical errors.
 
-![](/public/assets/2021-07-25/972e04c08136157a06a5d4d0cfffc975.png)[Critical](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report serious errors.
+![](/md_blog/public/assets/2021-07-25/972e04c08136157a06a5d4d0cfffc975.png)[Critical](https://doc.qt.io/qt-5/qmessagebox.html#Icon-enum)Used to report serious errors.
 
 ## [question](https://doc.qt.io/qt-5/qmessagebox.html)(`QWidget` \*parent,  
 `const QString` &title,  
@@ -118,7 +118,7 @@ Sample code:
 
 effect:
 
-![Question ](/public/assets/2021-07-25/877f9f94ffdb49d8f2096192c7ac7e07.png)
+![Question ](/md_blog/public/assets/2021-07-25/877f9f94ffdb49d8f2096192c7ac7e07.png)
 
 Explanation:
 
@@ -143,7 +143,7 @@ The Information message box has the same parameters and return values ​​as t
 
 * 5
 
-![Information ](/public/assets/2021-07-25/7ab0fe25d963a120bdae3126be40e090.png)
+![Information ](/md_blog/public/assets/2021-07-25/7ab0fe25d963a120bdae3126be40e090.png)
 
 ## Warning message box
 
@@ -162,7 +162,7 @@ The Warning message box is the same as above.
 
 * 5
 
-![Warning ](/public/assets/2021-07-25/685a5d6885c9012e980df18f85a84aa3.png)
+![Warning ](/md_blog/public/assets/2021-07-25/685a5d6885c9012e980df18f85a84aa3.png)
 
 ## Critical message box
 
@@ -174,7 +174,7 @@ When calling, if the last two parameters are not specified, the button is set an
 
 * 1
 
-![Critical ](/public/assets/2021-07-25/e362dceee440d2e955a509dcd1966bf8.png)
+![Critical ](/md_blog/public/assets/2021-07-25/e362dceee440d2e955a509dcd1966bf8.png)
 
 ## [about](https://doc.qt.io/qt-5/qmessagebox.html)(`QWidget` \*parent, `const QString` &title, `const QString` &text)
 
@@ -183,7 +183,7 @@ When calling, if the last two parameters are not specified, the button is set an
 
 * 1
 
-![About ](/public/assets/2021-07-25/9e29932e3adf759fec5574f89c40dfbf.png)
+![About ](/md_blog/public/assets/2021-07-25/9e29932e3adf759fec5574f89c40dfbf.png)
 
 ## [aboutQt](https://doc.qt.io/qt-5/qmessagebox.html)(`QWidget` \*parent, `const QString` &title = QString())
 
@@ -192,6 +192,6 @@ When calling, if the last two parameters are not specified, the button is set an
 
 * 1
 
-![aboutQT.png](/public/assets/2021-07-25/e2d07716d56d6072db70b7e18a7cad35.png)
+![aboutQT.png](/md_blog/public/assets/2021-07-25/e2d07716d56d6072db70b7e18a7cad35.png)
 
 ## [text](https://doc.qt.io/qt-5/qmessagebox.html#text-prop), Used to further explain the alert or ask the user questions[Informational text](https://doc.qt.io/qt-5/qmessagebox.html#informativeText-prop), And an optional option to provide more data when the user needs it[Detailed text](https://doc.qt.io/qt-5/qmessagebox.html#detailedText-prop)。

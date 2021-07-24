@@ -14,9 +14,9 @@ tags: [qt5]
 　Permanent message: such as (program version number, organization name)  
 　Progress message: such as (progress bar prompt, percentage prompt)
 * Provide class components related to the status bar in Qt  
-![ ](/public/assets/2021-07-25/766d33f36badaaeb68318d420550946a.png)
+![ ](/md_blog/public/assets/2021-07-25/766d33f36badaaeb68318d420550946a.png)
 * Create status bar in Qt main window  
-![ ](/public/assets/2021-07-25/5bf9002efcf6dd8f1721875baf9cc01f.png)
+![ ](/md_blog/public/assets/2021-07-25/5bf9002efcf6dd8f1721875baf9cc01f.png)
 * Design principles of Qt status bar  
 --- Left areaFor outputReal-time message  
 --- Area on the rightFor settingPermanent message  
@@ -141,7 +141,7 @@ main.cpp
 
 * 11
 
-![ ](/public/assets/2021-07-25/139a3bba8d1f496e532e26ee63607674.png)
+![ ](/md_blog/public/assets/2021-07-25/139a3bba8d1f496e532e26ee63607674.png)
 
 * summary:  
 --- The status bar is the area where brief information is output in the program  

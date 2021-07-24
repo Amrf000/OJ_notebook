@@ -8,9 +8,9 @@ tags: [qt5]
 
 * Qt provides a predefined font dialog`QFontDialog` class
 * `QFontDialog`Classes are used to provide dialog components for selecting fonts  
-![ ](/public/assets/2021-07-25/63bf4e94bc5a18b0fdcdae0e1b64aee0.png)
+![ ](/md_blog/public/assets/2021-07-25/63bf4e94bc5a18b0fdcdae0e1b64aee0.png)
 * How to use the font dialog  
-![ ](/public/assets/2021-07-25/ad18a28c40d91ea988af9a69e1d19106.png)
+![ ](/md_blog/public/assets/2021-07-25/ad18a28c40d91ea988af9a69e1d19106.png)
 
 program:
 
@@ -213,8 +213,8 @@ main.cpp
 
 * 12
 
-![ ](/public/assets/2021-07-25/81671fa20e8f6967cc1cf35dba9bd510.png)  
-![ ](/public/assets/2021-07-25/c43fe33779d52e1e2fe980b31de52eac.png)
+![ ](/md_blog/public/assets/2021-07-25/81671fa20e8f6967cc1cf35dba9bd510.png)  
+![ ](/md_blog/public/assets/2021-07-25/c43fe33779d52e1e2fe980b31de52eac.png)
 
 * `QFontDialog` Utility functions in  
 --- `QFontDialog::getFont`
@@ -249,9 +249,9 @@ main.cpp
 * Qt provides a predefined progress dialog`QPropressDialog` class
 * `QPropressDialog`Class is used to display progress information
 * `QPropressDialog`Classes are used when users need to wait  
-![ ](/public/assets/2021-07-25/e5cf2973c8b73752752ad5e13b8c68b6.png)
+![ ](/md_blog/public/assets/2021-07-25/e5cf2973c8b73752752ad5e13b8c68b6.png)
 * How to use the progress dialog  
-![ ](/public/assets/2021-07-25/dd1acc363664916c4f5d928307720596.png)
+![ ](/md_blog/public/assets/2021-07-25/dd1acc363664916c4f5d928307720596.png)
     
      void Widget::ProgressBtn_Clicked() { QProgressDialog dlg(this); dlg.setWindowTitle("Updating from server..."); dlg.setLabelText("Download from server ..."); dlg.setMinimum(0); dlg.setMaximum(100); dlg.setValue(35); //creat a new thread; dlg.exec(); } 
     
@@ -290,7 +290,7 @@ main.cpp
 
 * Qt provides a predefined print dialog`QPrintDialog` class
 * `QPrintDialog` Class is used to set printing related parameter information  
-![ ](/public/assets/2021-07-25/c05703594ad788aaca564f78fde4a866.png)
+![ ](/md_blog/public/assets/2021-07-25/c05703594ad788aaca564f78fde4a866.png)
 
 Knowledge points:
 
@@ -339,4 +339,4 @@ summary
 --- GUI interface generates data objects  
 --- Other objects in the business logic use data objects  
 --- GUI interface and business logic are connected through data objects  
-![ ](/public/assets/2021-07-25/4d0f1d6f7c83c6efd487cc1188732358.png)
+![ ](/md_blog/public/assets/2021-07-25/4d0f1d6f7c83c6efd487cc1188732358.png)

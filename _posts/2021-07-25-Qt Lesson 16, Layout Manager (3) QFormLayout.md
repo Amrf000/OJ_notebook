@@ -6,13 +6,13 @@ tags: [qt5]
 ---
 Thinking:  
 How to design the following user graphical interface?  
-![ ](/public/assets/2021-07-25/9ffb7a1e312fdc0112fb83960fae6f3c.png)
+![ ](/md_blog/public/assets/2021-07-25/9ffb7a1e312fdc0112fb83960fae6f3c.png)
 
 * solution  
 --- The coordinates and size of the absolutely positioned component  
 --- Nested`QBoxLayout`  
 --- Create 3 \* 2`QGridLayout`  
-![ ](/public/assets/2021-07-25/619a4f6839f01dbea45e7361a0ab3b78.png)
+![ ](/md_blog/public/assets/2021-07-25/619a4f6839f01dbea45e7361a0ab3b78.png)
 
 widget.h
     
@@ -137,16 +137,16 @@ widget.cpp
 * 30
 
 Disadvantages: not beautiful enough after being pulled up  
-![ ](/public/assets/2021-07-25/0cbf66d26679bf99bfc97c1d06a41615.png)
+![ ](/md_blog/public/assets/2021-07-25/0cbf66d26679bf99bfc97c1d06a41615.png)
 
 1、`QFormLayout` Layout manager
 
 --- TakeFormWay to manage interface components  
 --- Form layoutmiddlelabelwithComponentYesCorrespondenceRelationship  
-![ ](/public/assets/2021-07-25/3fcbecceeba545e5f8442d7f8612db87.png)
+![ ](/md_blog/public/assets/2021-07-25/3fcbecceeba545e5f8442d7f8612db87.png)
 
 * `QFormLayout`Usage summary  
-![ ](/public/assets/2021-07-25/21d2f23b421ec7d72f52924e8808ac5b.png)  
+![ ](/md_blog/public/assets/2021-07-25/21d2f23b421ec7d72f52924e8808ac5b.png)  
 form layoutSupport nesting, Other layout managers can be managed as sub-layouts.
 * `QFormLayout` Style function  
 --- `void setRowWrapPolicy(RowWrapPolicy policy)`　　　　　　//Line packing arrangement  
@@ -253,7 +253,7 @@ widget.cpp
 * 31
 
 * Layout manager nesting  
-![ ](/public/assets/2021-07-25/c8df0c28ce6b86209df422c32febce16.png)
+![ ](/md_blog/public/assets/2021-07-25/c8df0c28ce6b86209df422c32febce16.png)
 
 widget.h
     
@@ -347,7 +347,7 @@ widget.cpp
 
 * 27
 
-![ ](/public/assets/2021-07-25/b37987661b089ddc73ad433b141df237.png)
+![ ](/md_blog/public/assets/2021-07-25/b37987661b089ddc73ad433b141df237.png)
 
 * summary  
 --- `QFormLayout` Manage interface components in the form of a form  

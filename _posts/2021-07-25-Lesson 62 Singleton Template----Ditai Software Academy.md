@@ -8,7 +8,7 @@ tags: [qt5]
 
 1\. Requirements  
 In architecture design, certain classes can only have at most one object in the entire system life cycle. How to define a class so that this class can only create at most one object. ?  
-![ ](/public/assets/2021-07-25/ef8d9e59ca4f862f1e8c7672521be0f1.png)Case study 1; preliminary exploration of singleton mode
+![ ](/md_blog/public/assets/2021-07-25/ef8d9e59ca4f862f1e8c7672521be0f1.png)Case study 1; preliminary exploration of singleton mode
     
     #include <iostream> #include <string> using namespace std; class SObject { static SObject* c_instance; SObject(const SObject&); SObject& operator= (const SObject&); SObject() { } public: static SObject* GetInstance(); void print() { cout << "this = " << this << endl; } }; SObject* SObject::c_instance = NULL; SObject* SObject::GetInstance() { if( c_instance == NULL ) { c_instance = new SObject(); } return c_instance; } int main() { SObject* s = SObject::GetInstance(); SObject* s1 = SObject::GetInstance(); SObject* s2 = SObject::GetInstance(); s->print(); s1->print(); s2->print(); return 0; } this = 0xbb15b0 this = 0xbb15b0 this = 0xbb15b0 
     
