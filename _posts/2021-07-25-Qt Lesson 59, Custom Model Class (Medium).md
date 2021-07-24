@@ -4,20 +4,14 @@ title: Qt Lesson 59, Custom Model Class (Medium)
 category: qt5
 tags: [qt5]
 ---
-# 
-
-## 
-
 * System architecture diagram  
 ![ ](/md_blog/public/assets/2021-07-25/becba7ad59a49a4aad30ff4db2cfafc4.png)
-
 Custom model class Data layer, data presentation layer, data organization layer implementation  
 First understand the following concepts:  
 The architecture diagram in the project is used to define the module interface  
 The class diagram in the project is used to define the interface of specific functions  
 The flowchart in the engineering drawing is used to define the interaction between class objects  
 After the module is implemented, unit testing is required
-
 * `DataSource`Class design and implementation  
 --- Set data source and read data  
 --- parse the data to generate a data object  

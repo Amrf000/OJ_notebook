@@ -4,10 +4,6 @@ title: qt custom read-only model
 category: qt5
 tags: [qt5]
 ---
-# 
-
-## 
-
 * model / view model data with a view separated, that is to say, we can provide a data model for the different views, QListView, QTableView and QTreeView, so we can show all aspects of the data from different perspectives. However, with the changing needs of thousands, Qt several predefined model is far from meeting the need. Therefore, we must also customize the model.  
 Similar to the class QAbstractView custom views, QAbstractItemModel flexible enough to provide a custom interface to the model. It supports hierarchical data source, the data can be CRUD operations, but also to support drag and drop. However, sometimes a flexible class often seems too complicated, so, Qt also provides a QAbstarctListModel and QAbstractTableModel two classes to simplify the development of non-hierarchical data model. As the name suggests, these two classes better suited for use in conjunction with lists and tables.  
 Before starting a custom model, we first need to think about this question: our data structure suitable for display what view? Is a list, or a table, or a tree? If our data is only used to display a list or a table, then QAbstractListModel or QAbstractTableModel enough, they realize a lot of the default function for us. However, if our data has a hierarchical structure, and this level must be displayed to the user, we can only choose QAbstractItemModel. No matter what the underlying data structure format, it is best to be considered directly adapted to the standard QAbstractItemModel interface, so you can make more easy access to view this model.  

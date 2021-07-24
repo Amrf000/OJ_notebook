@@ -4,16 +4,7 @@ title: Qt Lesson 45, Creating a Find Dialog
 category: qt5
 tags: [qt5]
 ---
-# 
-
-## 
-
-##### 
-
-### 
-
 1\. Find dialog
-
 * Find dialog is a common part in the application  
 Goal: develop a search dialog that can be reused between different projects
 * Requirements analysis of the search dialog:  
@@ -28,9 +19,7 @@ The architecture and design of the search dialog:
 ![ ](/md_blog/public/assets/2021-07-25/5ab6b82f49e7d0cf662c8314eec0aa6a.png)
 * Interface layout of the search dialog  
 ![ ](/md_blog/public/assets/2021-07-25/0dd4cd6b44b4a620dd515310fe614c68.png)
-
 summary:
-
 * The search dialog can be developed as a reusable software component
 * Find dialog inherits from QDialog class
 * The interface of the search dialog is nested with each other through the layout manager

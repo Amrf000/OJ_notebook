@@ -4,14 +4,8 @@ title: Qt Lesson 23, File Operations in Qt
 category: qt5
 tags: [qt5]
 ---
-# 
-
-## 
-
 * The text editor involves saving text and reading text, so today we will learn about file operations in Qt.
-
 1\. IO operations in Qt
-
 * How to handle IO operations in Qt  
 --- Qt passedUnified interfacesimulatetextversusexternal deviceThe way of operation  
 --- The file in Qt is regarded as a special external device  

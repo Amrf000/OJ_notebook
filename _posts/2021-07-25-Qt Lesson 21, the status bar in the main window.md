@@ -5,7 +5,6 @@ category: qt5
 tags: [qt5]
 ---
 1\. The status bar in the main window
-
 * The concept and meaning of the status bar  
 --- The status bar is in the applicationOutput area for brief information  
 --- Normal status barLocated at the very bottom of the main window  
@@ -22,127 +21,14 @@ tags: [qt5]
 --- Area on the rightFor settingPermanent message  
 --- `addWidget` In the status barLeft halfAdd components  
 --- `addPermanentWidget` In the status barRight halfAdd components
-
 First experience of status bar:  
 MainWindow.h
-    
     #ifndef MAINWINDOW_H #define MAINWINDOW_H #include <QMainWindow> class MainWindow : public QMainWindow { Q_OBJECT public: MainWindow(QWidget *parent = nullptr); ~MainWindow(); }; #endif // MAINWINDOW_H 
-    
-
-* 1
-
-* 2
-
-* 3
-
-* 4
-
-* 5
-
-* 6
-
-* 7
-
-* 8
-
-* 9
-
-* 10
-
-* 11
-
-* 12
-
-* 13
-
-* 14
-
 MainWindow.cpp
-    
     #include "MainWindow.h" #include <QStatusBar> #include <QLabel> #include <QLineEdit> #include <QPushButton> MainWindow::MainWindow(QWidget *parent): QMainWindow(parent) { QStatusBar* sb = statusBar(); QLabel* label = new QLabel("label"); QLineEdit* edit = new QLineEdit("edit"); QPushButton* btn = new QPushButton("btn"); sb->addPermanentWidget(label); sb->addPermanentWidget(edit); sb->addPermanentWidget(btn); sb->showMessage("xiebs"); } MainWindow::~MainWindow() { } 
-    
-
-* 1
-
-* 2
-
-* 3
-
-* 4
-
-* 5
-
-* 6
-
-* 7
-
-* 8
-
-* 9
-
-* 10
-
-* 11
-
-* 12
-
-* 13
-
-* 14
-
-* 15
-
-* 16
-
-* 17
-
-* 18
-
-* 19
-
-* 20
-
-* 21
-
-* 22
-
-* 23
-
-* 24
-
-* 25
-
-* 26
-
 main.cpp
-    
     #include "MainWindow.h" #include <QApplication> int main(int argc, char *argv[]) { QApplication a(argc, argv); MainWindow w; w.show(); return a.exec(); } 
-    
-
-* 1
-
-* 2
-
-* 3
-
-* 4
-
-* 5
-
-* 6
-
-* 7
-
-* 8
-
-* 9
-
-* 10
-
-* 11
-
 ![ ](/md_blog/public/assets/2021-07-25/139a3bba8d1f496e532e26ee63607674.png)
-
 * summary:  
 --- The status bar is the area where brief information is output in the program  
 --- `QStatusBar` Is the class for creating status bar components in Qt  
