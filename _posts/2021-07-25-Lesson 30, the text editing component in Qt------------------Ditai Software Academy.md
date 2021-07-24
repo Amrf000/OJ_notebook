@@ -16,19 +16,19 @@ tags: [qt5]
 
 2\. Inheritance hierarchy diagram of commonly used text editing components in Qt
 
-![](./assets/2021-07-25/b9b1d6f729f3fb663b2f94f1111231f4.png)
+![](/public/assets/2021-07-25/b9b1d6f729f3fb663b2f94f1111231f4.png)
 
 3\. Comparison of the characteristics of different text components
 
-![](./assets/2021-07-25/366e5035a2b7d0104ef896b676d91e21.png)
+![](/public/assets/2021-07-25/366e5035a2b7d0104ef896b676d91e21.png)
 
 4\. Built-in functions of commonly used text editing components in Qt
 
-![](./assets/2021-07-25/48b1d18212e0562b27698afa51955f38.png)
+![](/public/assets/2021-07-25/48b1d18212e0562b27698afa51955f38.png)
 
 1\. A preliminary exploration of text editing components
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
     
 
 1. #include "MainWindow.h"
@@ -109,7 +109,7 @@ tags: [qt5]
 
 2、NopePad：
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.h
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.h
     
 
 1. #ifndef MAINWINDOW_H
@@ -236,7 +236,7 @@ tags: [qt5]
     
     
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) MainWindow.cpp
     
 
 1. #ifndef MAINWINDOW_H
@@ -363,7 +363,7 @@ tags: [qt5]
     
     
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
     
 
 1. #include <QtGui/QApplication>

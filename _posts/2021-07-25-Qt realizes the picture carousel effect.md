@@ -12,7 +12,7 @@ The following are two common picture carousel effects on the CSDN page. Basicall
 
 In fact, it is not difficult to achieve, just use Qt's animation class to achieve similar effects. I made one before, but the effect was not good. I re-written it today and achieved an effect similar to the first one above. Through the Qt animation class to modify the transparency to achieve the switching effect of the upper and lower two pictures, the effect diagram is below.
 
-![ ](./assets/2021-07-25/7ffdc3b770c33471c69cec7a6cf20a15.gif) ![ ](./assets/2021-07-25/086abc69013abb47e20dbe181c7d3916.gif)
+![ ](/public/assets/2021-07-25/7ffdc3b770c33471c69cec7a6cf20a15.gif) ![ ](/public/assets/2021-07-25/086abc69013abb47e20dbe181c7d3916.gif)
 
 # Second, the code path
 

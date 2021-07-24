@@ -14,15 +14,15 @@ If qt creator version is greater than 4.8, then congratulations, you only need a
 
 Help -\> About Plug-ins,
 
-![](./assets/2021-07-25/f254445d4e2c58e13febda0578d3aa07.png)
+![](/public/assets/2021-07-25/f254445d4e2c58e13febda0578d3aa07.png)
 
 Restart.
 
 Tools -\> Options,
 
-![](./assets/2021-07-25/afc97568c0cabaca521a6e8c34c3b58f.png)
+![](/public/assets/2021-07-25/afc97568c0cabaca521a6e8c34c3b58f.png)
 
-![](./assets/2021-07-25/f5f3a72d99c1792f9427641d516ee059.png) 
+![](/public/assets/2021-07-25/f5f3a72d99c1792f9427641d516ee059.png) 
 
 If the compiler is MSVC2017, then the location is clang-format.exe position shown in FIG. You can search about everything. If other compiler, with everything found it.
 

@@ -17,7 +17,7 @@ tags: [qt5]
 --- The file in Qt is regarded as a special external device  
 --- The file operation in Qt is the same as the operation of the external device
 * Key function interface in IO operation  
-![ ](./assets/2021-07-25/1ec84b96ac03acfee02872638f2ed469.png)  
+![ ](/public/assets/2021-07-25/1ec84b96ac03acfee02872638f2ed469.png)  
 The nature of IO operations: Data reading and writing in continuous storage space
 * Qt`IO` Type of equipment  
 --- sequential access device  
@@ -25,10 +25,10 @@ The nature of IO operations: Data reading and writing in continuous storage spac
 --- random access device  
 　　Can locate to any position to read and write data
 * Inheritance hierarchy of IO devices in Qt  
-![ ](./assets/2021-07-25/8fa6b6af26fd454712c6231afbd2b8a8.png)  
+![ ](/public/assets/2021-07-25/8fa6b6af26fd454712c6231afbd2b8a8.png)  
 2\. File operations in Qt
 * `QFile` Is a class for file operations in Qt
 * `QFile` The object corresponds to a file on the computer  
-![ ](./assets/2021-07-25/2f0f1e302048b2d9076482f946866904.png)
+![ ](/public/assets/2021-07-25/2f0f1e302048b2d9076482f946866904.png)
 * `QFileInfo` Class is used to read file attribute information  
-![](./assets/2021-07-25/5b0c265d8d25a8422f086ea398b67304.png)
+![](/public/assets/2021-07-25/5b0c265d8d25a8422f086ea398b67304.png)

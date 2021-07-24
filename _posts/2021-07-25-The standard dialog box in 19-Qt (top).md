@@ -20,7 +20,7 @@ tags: [qt5]
 * QT provides developers with some reusable dialog box types
 * The reusable dialogs provided by QT all inherit from the QDialog class
 
-![ ](./assets/2021-07-25/fc4b5de019ad7bdf3b7c614906b57861.png)
+![ ](/public/assets/2021-07-25/fc4b5de019ad7bdf3b7c614906b57861.png)
 
 * Standard dialogs in QT follow the same usage
     
@@ -60,7 +60,7 @@ tags: [qt5]
   * Prompt users with important information
   * Force users to make operation choices
 
-![ ](./assets/2021-07-25/d0627c218003fdd35a44cfd02c08f9da.png)
+![ ](/public/assets/2021-07-25/d0627c218003fdd35a44cfd02c08f9da.png)
 
 * How to use the message dialog
     

@@ -5,7 +5,7 @@ category: qt5
 tags: [qt5]
 ---
 Show results:  
-![ ](./assets/2021-07-25/8733c8cee9ed5ddb87133a831c2e5409.png)  
+![ ](/public/assets/2021-07-25/8733c8cee9ed5ddb87133a831c2e5409.png)  
 Code  
 .h file
     
@@ -256,4 +256,4 @@ Code
 * 83
 
 UI layout  
-![ ](./assets/2021-07-25/82ac528f7f65b68b2acc306a993f6869.png)
+![ ](/public/assets/2021-07-25/82ac528f7f65b68b2acc306a993f6869.png)

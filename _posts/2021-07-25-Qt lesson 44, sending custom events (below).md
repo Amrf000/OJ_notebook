@@ -17,7 +17,7 @@ tags: [qt5]
 * Custom event class  
 1\. Inherit QEvent as the parent class  
 2\. Specify a globally unique Type value  
-![ ](./assets/2021-07-25/cfbead94b7ce1b3829011d1515e41d03.png)
+![ ](/public/assets/2021-07-25/cfbead94b7ce1b3829011d1515e41d03.png)
 * Type value of Qt event:  
 --- Each event class has a globally unique Type value  
 --- The Type value of the custom event class also needs to be customized  
@@ -260,7 +260,7 @@ Widget.cpp
 
 * 41
 
-![ ](./assets/2021-07-25/57a096d1e6a78cec2efe5e4121e5afc2.png)
+![ ](/public/assets/2021-07-25/57a096d1e6a78cec2efe5e4121e5afc2.png)
 
 summary:
 

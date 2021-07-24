@@ -8,11 +8,11 @@ tags: [qt5]
 
 Ubuntu 18.04 Preview of New Features
 
-![ ](./assets/2021-07-25/7dc22a6cea53bdba4b24ec2622bc8e34.png)  
-![ ](./assets/2021-07-25/7563ae71352aca875fa8b6bfe92471f6.png)  
-![ ](./assets/2021-07-25/c3b5983e544e781f6dcaff5ed4926a92.png)  
-![ ](./assets/2021-07-25/3b06f7015ec1242d09e8c9b8b3b01365.png)  
-![ ](./assets/2021-07-25/55d835a2f72685caed9e1c9bcf2d3cb0.png)  
+![ ](/public/assets/2021-07-25/7dc22a6cea53bdba4b24ec2622bc8e34.png)  
+![ ](/public/assets/2021-07-25/7563ae71352aca875fa8b6bfe92471f6.png)  
+![ ](/public/assets/2021-07-25/c3b5983e544e781f6dcaff5ed4926a92.png)  
+![ ](/public/assets/2021-07-25/3b06f7015ec1242d09e8c9b8b3b01365.png)  
+![ ](/public/assets/2021-07-25/55d835a2f72685caed9e1c9bcf2d3cb0.png)  
 Widget.h
     
     #ifndef WIDGET_H #define WIDGET_H #include <QWidget> #include <QTabWidget> class Widget : public QWidget { Q_OBJECT private: QTabWidget m_tabwidget; public: Widget(QWidget *parent = nullptr); ~Widget(); }; #endif // WIDGET_H 
@@ -162,12 +162,12 @@ main.cpp
 
 * 11
 
-![ ](./assets/2021-07-25/f0a3cd3e7f0753ee5c8340f76332ba6b.png)
+![ ](/public/assets/2021-07-25/f0a3cd3e7f0753ee5c8340f76332ba6b.png)
 
-![ ](./assets/2021-07-25/e9d1cefad62a2f695a83982b2df3816d.png)  
-![ ](./assets/2021-07-25/5cd5ec54ea6e248bef5bfb44a089ebbf.png)
+![ ](/public/assets/2021-07-25/e9d1cefad62a2f695a83982b2df3816d.png)  
+![ ](/public/assets/2021-07-25/5cd5ec54ea6e248bef5bfb44a089ebbf.png)
 
-![ ](./assets/2021-07-25/d7fee536cff24124c0ae2df185f9c614.png)  
+![ ](/public/assets/2021-07-25/d7fee536cff24124c0ae2df185f9c614.png)  
 Widget.h
     
     #ifndef WIDGET_H #define WIDGET_H #include <QWidget> #include <QTabWidget> class Widget : public QWidget { Q_OBJECT protected: QTabWidget m_tabwidget; protected slots: void onCurrentChanged(int index); void onTabCloseRequested(int index); public: Widget(QWidget *parent = nullptr); ~Widget(); }; #endif // WIDGET_H 

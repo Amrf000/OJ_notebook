@@ -17,9 +17,9 @@ tags: [qt5]
 --- Disabled color group (Disabled): the color scheme used when the component is not available
 * The color group in QPalette defines the color value of the group details
 * `QPalette::ColorRole` Constant values ​​in are used to identify component details  
-![ ](./assets/2021-07-25/b70ace3636fcfce50c987384953584a3.png)
+![ ](/public/assets/2021-07-25/b70ace3636fcfce50c987384953584a3.png)
 * Understanding the palette in Qt  
-![ ](./assets/2021-07-25/aaf3c6ce89d16370390b9a6a5ed58705.png)  
+![ ](/public/assets/2021-07-25/aaf3c6ce89d16370390b9a6a5ed58705.png)  
 Understand:  
 1\. The palette is a data structure for storing component color information  
 2\. The colors used in the component appearance are all set in the palette
@@ -213,7 +213,7 @@ main.cpp
 
 * 12
 
-![ ](./assets/2021-07-25/0dcf8db4d8aebcdcd1351fd2c2d3a726.png)
+![ ](/public/assets/2021-07-25/0dcf8db4d8aebcdcd1351fd2c2d3a726.png)
 
 Improvements in the text editor:
     
@@ -238,7 +238,7 @@ Improvements in the text editor:
 
 * 9
 
-![ ](./assets/2021-07-25/c9361bdd72df143da8c7d16dd3697645.png)  
+![ ](/public/assets/2021-07-25/c9361bdd72df143da8c7d16dd3697645.png)  
 Summary:
 
 * QPalette is a data structure for identifying colors in Qt

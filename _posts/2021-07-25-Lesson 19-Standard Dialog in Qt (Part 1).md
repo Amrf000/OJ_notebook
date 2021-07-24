@@ -4,27 +4,27 @@ title: Lesson 19-Standard Dialog in Qt (Part 1)
 category: qt5
 tags: [qt5]
 ---
-![](./assets/2021-07-25/24becc4d41299cba9aff655dddb00933.png)
+![](/public/assets/2021-07-25/24becc4d41299cba9aff655dddb00933.png)
 
-![](./assets/2021-07-25/b53b3dc0e363b8bdbb2d009eb35df880.png)
+![](/public/assets/2021-07-25/b53b3dc0e363b8bdbb2d009eb35df880.png)
 
-![](./assets/2021-07-25/745c059a53568da5aff2117fbbff6060.png)
+![](/public/assets/2021-07-25/745c059a53568da5aff2117fbbff6060.png)
 
-![](./assets/2021-07-25/b66ea59c2dbff83641fb89463aeb2bb9.png)
+![](/public/assets/2021-07-25/b66ea59c2dbff83641fb89463aeb2bb9.png)
 
-![](./assets/2021-07-25/2cc185efc9483fc417935042bb977909.png)
+![](/public/assets/2021-07-25/2cc185efc9483fc417935042bb977909.png)
 
-![](./assets/2021-07-25/5a73b1da7fde824b7318fd3576ef2050.png)
+![](/public/assets/2021-07-25/5a73b1da7fde824b7318fd3576ef2050.png)
 
-![](./assets/2021-07-25/02922b32d8f8f516feb42e30c86487d2.png)
+![](/public/assets/2021-07-25/02922b32d8f8f516feb42e30c86487d2.png)
 
-![](./assets/2021-07-25/a4ab73c91ae390229e5c056827f57b9c.png)
+![](/public/assets/2021-07-25/a4ab73c91ae390229e5c056827f57b9c.png)
 
-![](./assets/2021-07-25/8c3e75b1a0fe68df302b4f7b5d2a49c6.png)
+![](/public/assets/2021-07-25/8c3e75b1a0fe68df302b4f7b5d2a49c6.png)
 
-![](./assets/2021-07-25/916ffe5939f05670874ee50dfb9ad569.png)
+![](/public/assets/2021-07-25/916ffe5939f05670874ee50dfb9ad569.png)
 
-![](./assets/2021-07-25/c763efe2f7438c24df8bb01dad4afaa5.png)
+![](/public/assets/2021-07-25/c763efe2f7438c24df8bb01dad4afaa5.png)
     
 
 1. #include <QtGui/QApplication>

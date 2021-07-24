@@ -11,7 +11,7 @@ tags: [qt5]
 --- Data file: The content of the file is direct binary data
 
 we know,QFile directly supports reading and writing of text files and data files  
-![ ](./assets/2021-07-25/32de7cca11faf50b9ae227f95cd1511d.png)  
+![ ](/public/assets/2021-07-25/32de7cca11faf50b9ae227f95cd1511d.png)  
 Thinking: How to write a floating point data into a text file and a data file?
 
 program:
@@ -79,7 +79,7 @@ program:
 
 * 30
 
-![ ](./assets/2021-07-25/f212b1545579792c66c3a929e384dff5.png)  
+![ ](/public/assets/2021-07-25/f212b1545579792c66c3a929e384dff5.png)  
 Conclusion: If you directly use QFile to read and write data or text, it is definitely feasible. The inconvenience lies in type conversion
 
 2\. Text flow and data flow
@@ -88,7 +88,7 @@ Conclusion: If you directly use QFile to read and write data or text, it is defi
 --- QTextStream: all written data is converted toReadable text  
 --- QDataStream: The written data is converted toBinary data
 * How to use IO device auxiliary class  
-![ ](./assets/2021-07-25/9aedb843025d9624e336cf9bf6ecbdc1.png)
+![ ](/public/assets/2021-07-25/9aedb843025d9624e336cf9bf6ecbdc1.png)
 
 3\. Version information of the data stream file
 
@@ -240,7 +240,7 @@ When the data stream file may transfer data between different versions of Qt pro
 
 * 70
 
-![ ](./assets/2021-07-25/42cb9f706ae058f5368c2762fea77eef.png)  
+![ ](/public/assets/2021-07-25/42cb9f706ae058f5368c2762fea77eef.png)  
 4\. Summary
 
 * File auxiliary classes in Qt are used to facilitate read and write operations

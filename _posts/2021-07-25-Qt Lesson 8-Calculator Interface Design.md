@@ -10,12 +10,12 @@ This article is learned from the QT course of Tang Zuolin from Ditai Software. T
 
 Experiment 1: Calculator interface
 
-![ ](./assets/2021-07-25/6d34c6530497eb0a61b4036318c30e70.png)  
-![ ](./assets/2021-07-25/a7a16b634b809f4ce271500a2e42a35d.png)  
-![ ](./assets/2021-07-25/a04d12bce9ca3d3614024501c341e8de.png)  
-![ ](./assets/2021-07-25/81e20f8e61ad4538209acae089c1732e.png)  
+![ ](/public/assets/2021-07-25/6d34c6530497eb0a61b4036318c30e70.png)  
+![ ](/public/assets/2021-07-25/a7a16b634b809f4ce271500a2e42a35d.png)  
+![ ](/public/assets/2021-07-25/a04d12bce9ca3d3614024501c341e8de.png)  
+![ ](/public/assets/2021-07-25/81e20f8e61ad4538209acae089c1732e.png)  
 Issues to note:  
-![ ](./assets/2021-07-25/be6c98ebcca30220095a1369edbfdcf9.png)
+![ ](/public/assets/2021-07-25/be6c98ebcca30220095a1369edbfdcf9.png)
 
 Checking documents while developing
 
@@ -104,5 +104,5 @@ Experiment: Calculator interface
 
 * 40
 
-![ ](./assets/2021-07-25/4f6e3547f54816795e3759d31385efeb.png)  
-![ ](./assets/2021-07-25/077f1bab1ee8ed1d2fffee8a3238677b.png)
+![ ](/public/assets/2021-07-25/4f6e3547f54816795e3759d31385efeb.png)  
+![ ](/public/assets/2021-07-25/077f1bab1ee8ed1d2fffee8a3238677b.png)

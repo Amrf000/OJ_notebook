@@ -10,7 +10,7 @@ tags: [qt5]
 --- All components are inPerpendicular to the screenManaged in the direction of  
 --- every timeOnly one componentWill be displayed on the screen  
 --- onlyTopmost componentWill be finally displayed  
-![ ](./assets/2021-07-25/c7e3f5b88cbc34161dbb71b4fd3dd926.png)
+![ ](/public/assets/2021-07-25/c7e3f5b88cbc34161dbb71b4fd3dd926.png)
 * Features of Stacked Layout Manager  
 --- Consistent component sizeAnd full of the display area of ​​the parent component  
 --- Cannot be nested directlyOther layout managers  
@@ -170,7 +170,7 @@ widget.cpp
 
 * 36
 
-![ ](./assets/2021-07-25/a2eea094e3c8ba0be3ec1b2dddba2092.png)
+![ ](/public/assets/2021-07-25/a2eea094e3c8ba0be3ec1b2dddba2092.png)
 
 2\. The concept of timer
 
@@ -187,7 +187,7 @@ widget.cpp
 4\. Set the timer interval and start timing
 
 Function: layout()  
-![ ](./assets/2021-07-25/39c8f30bbdb2ebfc0bb03569fe173807.png)  
+![ ](/public/assets/2021-07-25/39c8f30bbdb2ebfc0bb03569fe173807.png)  
 If it is a QLayout object, it returns a pointer of the QLayout type and supports coercive type conversion.
 
 widget.h
@@ -352,9 +352,9 @@ widget.cpp
 
 * 52
 
-![ ](./assets/2021-07-25/2f2ef94ba1dc218f2f03cc9f2a070504.png)  
-![ ](./assets/2021-07-25/5a9271c71cb25444a7a3e4b0c383fd1a.png)  
-![ ](./assets/2021-07-25/5da007376f828ff87253ba377f5b243e.png)
+![ ](/public/assets/2021-07-25/2f2ef94ba1dc218f2f03cc9f2a070504.png)  
+![ ](/public/assets/2021-07-25/5a9271c71cb25444a7a3e4b0c383fd1a.png)  
+![ ](/public/assets/2021-07-25/5da007376f828ff87253ba377f5b243e.png)
 
 * summary  
 --- `QStackedLayout` Manage interface components in a stack  

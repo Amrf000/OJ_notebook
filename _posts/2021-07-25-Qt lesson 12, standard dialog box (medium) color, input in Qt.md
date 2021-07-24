@@ -12,9 +12,9 @@ tags: [qt5]
 
 * Qt provides a predefined color dialog box QColorDialog class
 * The QColorDialog class is used to provide dialog components with specified colors  
-![ ](./assets/2021-07-25/54e16bc3d9d7e46c14450ff1d818c9fb.png)
+![ ](/public/assets/2021-07-25/54e16bc3d9d7e46c14450ff1d818c9fb.png)
 * How to use the color dialog  
-![ ](./assets/2021-07-25/c8658c1b9475477aad09750e2e998788.png)
+![ ](/public/assets/2021-07-25/c8658c1b9475477aad09750e2e998788.png)
 * The QColor class in Qt is used to represent the concept of color in the program
 * The QColor class supports multiple color expressions at the same time  
 --- RGB: Three-color model based on red, green and blue  
@@ -206,8 +206,8 @@ main.cpp
 
 * 12
 
-![ ](./assets/2021-07-25/1ff1677a8fe5fca0881508e4643eb211.png)  
-![ ](./assets/2021-07-25/a03f5e0d045979bd0f9f45d3e32ac788.png)
+![ ](/public/assets/2021-07-25/1ff1677a8fe5fca0881508e4643eb211.png)  
+![ ](/public/assets/2021-07-25/a03f5e0d045979bd0f9f45d3e32ac788.png)
 
 * Utility functions in QColorDialog  
 --- `QColorDialog::getColor`
@@ -251,9 +251,9 @@ A modal color dialog box with a specified window title pops up (select a color i
 
 * Qt provides a predefined input dialog QInputDialog class
 * The QInputDialog class is used where temporary data input is required  
-![ ](./assets/2021-07-25/53ba193e7e18a639662a5610f0581ed2.png)
+![ ](/public/assets/2021-07-25/53ba193e7e18a639662a5610f0581ed2.png)
 * How to use the input dialog  
-![ ](./assets/2021-07-25/8128da80107d769e7d5ccede79ebe343.png)
+![ ](/public/assets/2021-07-25/8128da80107d769e7d5ccede79ebe343.png)
 * Input mode of the input dialog
     
     QInputDialog::TextInput — input a text string QInputDialog::IntInput — input an integer QInputDialog::DoubleInput — input floating point numbers qDebug() << dlg.textValue(); qDebug() << dlg.intValue(); qDebug() << dlg.doubleValue(); 

@@ -40,7 +40,7 @@ tags: [qt5]
 
 * 10
 
-![ ](./assets/2021-07-25/555b9fa5ca52162e9bcbc5208c3fdeb4.png)  
+![ ](/public/assets/2021-07-25/555b9fa5ca52162e9bcbc5208c3fdeb4.png)  
 Note:`geometry()` with `frameGeometry()` The geometric data in must be`show()`It is only valid after being called.  
 `resize()` Function correspondence`width()` with `height()` Value of  
 `move()` Function correspondence`x()` with `y()`Value of

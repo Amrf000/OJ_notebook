@@ -26,15 +26,15 @@ tags: [qt5]
 
 1\. Interface design through layout nesting
 
-![](./assets/2021-07-25/9bc0d25cc01402efe5556dedb14ba9ac.png)
+![](/public/assets/2021-07-25/9bc0d25cc01402efe5556dedb14ba9ac.png)
 
 2\. Manage different pages through QStackedLayout
 
-![](./assets/2021-07-25/0edcc7dae56d9257655ab3b88182ebac.png)
+![](/public/assets/2021-07-25/0edcc7dae56d9257655ab3b88182ebac.png)
 
 3\. Generate different ways through sub-components
 
-![](./assets/2021-07-25/5cc8f14905c961c8785edc241eb5d86e.png)
+![](/public/assets/2021-07-25/5cc8f14905c961c8785edc241eb5d86e.png)
 
 4\. Matters needing attention
 
@@ -44,9 +44,9 @@ tags: [qt5]
 
 (3) The parent-child relationship is implicitly specified while the layout management is set
 
-![](./assets/2021-07-25/1ed2bdd812507951af1ec7bd9dc1da31.png)
+![](/public/assets/2021-07-25/1ed2bdd812507951af1ec7bd9dc1da31.png)
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) Widget.h
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) Widget.h
     
 
 1. #ifndef WIDGET_H
@@ -146,7 +146,7 @@ tags: [qt5]
     
     
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) Widget.cpp
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) Widget.cpp
     
 
 1. #include "Widget.h"
@@ -414,7 +414,7 @@ tags: [qt5]
     
     
 
-![](./assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
+![](/public/assets/2021-07-25/d2b88b779cfe3245b75c40ea465a4ccd.gif) main.cpp
     
 
 1. #include <QtGui/QApplication>
