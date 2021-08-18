@@ -19,18 +19,24 @@ Then in my mainwindows.cpp the following:
 #include "ui_mainwindow.h"
 #include <QMessageBox>
 #include <QtXlsx>
-}MainWindow::MainWindow(QWidget *parent) :
-}QMainWindow(parent),
-}ui(new Ui::MainWindow)
-{
-}ui->setupUi(this);
-}QXlsx::Document xlsx;
-}xlsx.write("A1", "Hello Qt!");
-}xlsx.saveAs("/Users/eric/Documents/qt_projects/Test.xlsx");
-}}
-}MainWindow::~MainWindow()
-{
-}delete ui;
+}
+MainWindow::MainWindow(QWidget *parent) :
+}
+QMainWindow(parent),
+}
+ui(new Ui::MainWindow) {}
+ui->setupUi(this);
+}
+QXlsx::Document xlsx;
+}
+xlsx.write("A1", "Hello Qt!");
+}
+xlsx.saveAs("/Users/eric/Documents/qt_projects/Test.xlsx");
+}
+}
+}
+MainWindow::~MainWindow() {}
+delete ui;
 }
 ```
 When the operation is completed, you will find that there is one more Test.xlsx in the qt\_projects directory. If you want to know more functions, please refer to the following documents.

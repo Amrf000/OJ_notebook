@@ -73,13 +73,13 @@ Run the update package downloaded in the previous step. (Double-click to run —
 
 Here I am going to download Ubuntu 20.04 distro for x64 and install it via Powershell
 
-1\.  Download the distro
+1.  Download the distro
 
 Invoke-WebRequest -Uri [https://aka.ms/wslubuntu2004](https://aka.ms/wslubuntu2004) -OutFile Ubuntu.appx -UseBasicParsing
 
-2\. Install the distro
+2. Install the distro
 
-Add-AppxPackage .\\app\_name.appx
+Add-AppxPackage .\\app_name.appx
 
 Configure the distro
 ====================

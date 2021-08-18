@@ -23,43 +23,42 @@ After all the threads are finished, the process is finished.
 2\. Programming experiment
 A preliminary exploration of multi-threaded programming 73-1.pro
 main.cpp
-#include <QtCore/QCoreApplication>
-#include <QThread>
+```
 #include <QDebug>
-}class MyThread: public QThread //Create thread class
-{
-7. protected:
-}void run() //Thread entry function
-}{
-}qDebug() << objectName() << " : " << "run() begin";
-11. }for(int i=0; i<5; i++)
-}{
-}qDebug() << objectName() << " : " << i;
-15. }sleep(1);
-}}
-18. }qDebug() << objectName() << " : " << "run() end";
-}}
+#include <QThread>
+#include <QtCore/QCoreApplication>
+
+class MyThread : public QThread {
+protected:
+  void run() {
+    qDebug() << objectName() << "run() begin";
+
+    for (int i = 0; i < 5; i++) {
+      qDebug() << objectName() << i;
+      sleep(1);
+    }
+    qDebug() << objectName() << "run() end";
+  }
 };
-22. }int main(int argc, char *argv[]) //Main thread entry function
-{
-}QCoreApplication a(argc, argv);
-26. }qDebug() << "main() begin";
-28. }MyThread t; //Create child thread
-30. }t.setObjectName("t");
-32. }t.start(); //Start child thread
-34. }MyThread tt;
-36. }tt.setObjectName("tt");
-38. }tt.start();
-40. }for(int i=0; i<100000; i++)
-}{
-}for(int j=0; j<10000; j++)
-}{
-45. 			 //Delay
-}}
-}}
-48. }qDebug() << "main() end";
-50. }return a.exec();
+
+int main(int argc, char *argv[]) {
+  QCoreApplication a(argc, argv);
+  qDebug() << "main() begin";
+
+  MyThread t1;
+  t1.setObjectName("t1");
+  t1.start();
+
+  MyThread t2;
+  t2.setObjectName("t2");
+  t2.start();
+
+  qDebug() << "main() end";
+  return a.exec();
 }
+
+Create multiple threads
+```
 ![](/md_blog/public/assets/2021-07-25/0132bb66e8ad6d53e7bac4cb9348239b.png)
 Multiple threads execute in parallel
 Thread life cycle
@@ -71,61 +70,73 @@ Issues such as resource release! A
 How to terminate threads gracefully in code? A
 Solution ideas
 －The end of the run() function execution is the only way to terminate the thread gracefully
------- Add flag variable in thread classm\_toStop (volatile bool) 
------- Passedm\_toStopDetermines whether it needs to be returned from the run() function
-3\. Programming experiment
+------ Add flag variable in thread classm_toStop (volatile bool) 
+------ Passedm_toStopDetermines whether it needs to be returned from the run() function
+3. Programming experiment
 Elegant thread control 73-2.pro
 main.cpp
-#include <QtCore/QCoreApplication>
-#include <QThread>
+```
 #include <QDebug>
-}class Sample : public QThread
-{
-7. protected:
-}volatile bool m_toStop;
-9. }void run()
-}{
-}qDebug() << objectName() << " : begin";
-13. }int* p = new int[10000];
-15. }for(int i=0; !m_toStop && (i<10); i++)
-}{
-}qDebug() << objectName() << " : " << i;
-19. }p[i] = i * i * i;
-21. }msleep(500);
-}}
-24. }delete[] p;
-26. }qDebug() << objectName() << " : end";
-}}
-29. public:
-}Sample()
-}{
-}m_toStop = false;
-}}
-34. }void stop()
-}{
-}m_toStop = true;
-}}
+#include <QThread>
+#include <QtCore/QCoreApplication>
+
+class Sample : public QThread {
+protected:
+  volatile bool m_toStop;
+
+  void run() {
+    qDebug() << objectName() << " : begin";
+
+    int *p = new int[10000];
+
+    for (int i = 0; !m_toStop && (i < 10); i++) {
+      qDebug() << objectName() << " : " << i;
+
+      p[i] = i * i * i;
+
+      msleep(500);
+    }
+
+    delete[] p;
+
+    qDebug() << objectName() << " : end";
+  }
+
+public:
+  Sample() { m_toStop = false; }
+
+  void stop() { m_toStop = true; }
 };
-}int main(int argc, char *argv[])
-{
-}QCoreApplication a(argc, argv);
-44. }qDebug() << "main begin";
-46. }Sample t;
-48. }t.setObjectName("t");
-50. }t.start();
-52. }for(int i=0; i<100000; i++)
-}{
-}for(int j=0; j<10000; j++)
-}{
-57. }}
-}}
-60. }t.stop();
-}//t.terminate();
-63. }qDebug() << "main end";
-65. }return a.exec();
+
+int main(int argc, char *argv[]) {
+  QCoreApplication a(argc, argv);
+
+  qDebug() << "main begin";
+
+  Sample t;
+
+  t.setObjectName("t");
+
+  t.start();
+
+  for (int i = 0; i < 100000; i++) {
+    for (int j = 0; j < 10000; j++) {
+    }
+  }
+
+  t.stop();
+  // t.terminate();//If the violence ends, a memory leak will occur in this
+  // case, and the space pointed to by the p pointer is not destroyed
+
+  qDebug() << "main end";
+
+  return a.exec();
 }
+
+Ending violently and gracefully
+```
 No resource leaks anyway
-4\. Summary
+4. Summary
 QThread is a cross-platform multi-thread solution
 QThread implements multithreaded programming in a concise and easy-to-use manner
 void run()Functions are used to implement thread execution bodies
